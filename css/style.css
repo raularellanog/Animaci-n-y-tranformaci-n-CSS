@@ -1,0 +1,22 @@
+body{
+    background: black;
+}
+.uno{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: mianimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes mianimation{
+    0%{background-color: aqua;}
+    10%{border-radius: 100px;}
+    20%{background-color: red;}
+    40%{background-color: white;}
+    60%{background-color: brown;}
+    80%{
+        transform: rotate(30deg) translate(200px,350px);
+    }
+}
